@@ -1,0 +1,270 @@
+body{
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+	background-image: url(../../../img/jb.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+#sakura{
+    position: absolute;
+    z-index:10;
+}
+.aaa{
+	font-size: 30px;
+	color: #FFFFFF;
+	padding: 50px 10px 0 10px;
+	margin-right: 20px;
+	height:50px;
+	outline: none;
+	cursor: pointer;
+	width: 250px;	
+}
+a{
+	text-decoration: none;
+	color: #04CDF7;
+}
+#maxbox{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-left: 300px;
+	width: 1500px;
+	height: 600px;
+	position: absolute;
+    z-index:200;
+}
+.left{
+	border: 1px solid #FFFFFF;
+	float: left;
+	width: 298px;
+	height: 800px;
+	background-color: #ffffff30;
+	z-index: 300;
+	
+}
+.lefthead{
+	height: 110px;
+	width: 100%;
+}
+.leftend{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 15px;
+	
+}
+.leftend div{
+  font-size:30px;
+  padding-left:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.logo{
+	margin-left: 20px;
+	float: left;
+}
+.daohang{
+	font-size: 30px;
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	padding: 50px 10px 0 10px;
+	margin-right: 20px;
+	height:50px;
+	width: 130px;
+	float: right;
+	
+}
+
+
+
+.right{
+	border-right: 1px solid  #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	margin-right:100px;
+	height: 800px;
+	width: 1098px;
+	background-color: #ffffff30;
+	float: right;
+	
+}
+.righthead{
+	margin-top:60px;
+	height: 45px;
+	color: aliceblue;
+}
+.righthead span{
+	line-height:30px;
+    font-size: 40px;
+}
+.righthead .h{
+	float:left;
+	margin-left:170px;
+    height:20px;
+	width:300px;
+}
+.righthead .ad,.tc {
+	margin-left:20px;
+	float:left;
+	width:100px;
+	height:23px;
+	text-align:center;
+    border:1px solid #FFF;
+	border-radius:25px;
+}
+.tcq{
+   display:none;
+}
+
+.rightmid{
+	margin-left:10px;
+	width: 100%;
+	height: 500px;
+	background-color:aliceblue90;
+}
+.rightmid_head{
+     height:50px;
+	 width:1062px;
+	 border:1px solid #FFF;
+	 margin-top:10px;
+}
+.rightmid_head div{
+   height:50px;
+   width:130px;
+   float:left;
+  
+   line-height:50px;
+   font-size:20px;
+   letter-spacing:10px;
+   color:#FFF;
+   text-align:center;
+}
+.rightmid_head div:nth-child(4){
+	width:100px;
+}
+.rightmid_head div:nth-child(5){
+	width:100px;
+}
+.rightmid_head div:nth-child(6){
+	width:200px;
+}
+.midbox{
+	height:40px;
+	width:1062px;
+	color:#FFF;
+	font-size: 10px;
+	margin-top:20px;
+	line-height: 40px;
+	text-align: center;
+	border:1px solid #FFFFFF;
+}
+.midbox div{
+    	text-align: center;
+		line-height:40px;
+		width:130px;
+		font-size:20px;
+		float:left;
+}
+.midbox div:nth-child(4){
+	width: 100px;
+}
+.midbox div:nth-child(5){
+	width: 100px;
+}
+.midbox div:nth-child(6){
+	width: 200px;
+}
+.midend{
+	border-top: solid 1px #FFFFFF;
+	background: aliceblue90;
+	height: 50px;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+}
+.fz{
+	height: 100px;
+	width: 100%;
+
+}
+.fz p{
+	height: 20px;
+	margin: 0;
+	color: #ffffff;
+	letter-spacing: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+.fanye{
+	margin-top: 20px;
+	margin-left: 150px;
+}
+#h1{
+	font-size:36px;
+	width:400px;
+	padding-left:400px;
+}
+
+.fanye div{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+	text-align: center;
+	margin-left: 60px;
+	line-height: 30px;
+	float: left;
+	cursor: pointer;
+	
+}
+.midend .tcc{
+    margin-left:50px;
+	margin-top:25px;
+	float:left;
+	width:100px;
+	text-align:center;
+    border:1px solid #FFF;
+	border-radius:25px;
+}
+#midend{
+	margin: auto;
+	width: 150px;
+	color:#FFF;
+	text-align:center;
+	height: 20px;
+	border-radius:25px; 
+	border: 1px #FFFFFF solid;
+}
+
+#jsxx{
+	height: 450px;
+	width: calc( 100% - 20px);
+}
+li a{
+	color: #FFF;
+	margin-left: 10px;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+
+#details{
+	height: 620px;
+	width: 100%;
+	overflow-y: scroll;
+	
+}
+#details::-webkit-scrollbar {
+	width: 4px;    
+	/*height: 4px;*/
+}
+#details::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 5px #fff;
+	background: rgba(219, 217, 217, 0.2);
+}
+#details::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 5px rgba(199, 199, 199, 0.2);
+	border-radius: 0;
+	background: rgba(218, 218, 218, 0.1);
+}

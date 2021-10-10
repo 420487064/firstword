@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $(".tijiao").click(function(){
+        console.log($('#yh').val());
+            $.post("../../model/xy_add_post.php",
+                    {
+                        'yh':$('#yh').val(),
+                        'xy':$('#xy').val()
+                    },function(res){
+                        console.log(res);
+                        if(res==1){
+                           location.href='xy.html';
+                        }else{
+                           $('.cr').text("院号已存在");
+                        }
+                    },"json");
+        });
+})

@@ -1,0 +1,60 @@
+
+.righthead{
+  height:60px;
+  border-bottom: 1px solid;
+}
+.rightmid{
+   margin-top:20px;
+	height: 400px;
+}
+.rightmid div{
+	 margin-top: 50px;
+	 color:#FFFFFF;
+	 margin-left: 20px;
+  
+}
+.rightmid input{
+	border: 0;
+	padding: 6px;
+	border-bottom: 1px solid white;
+	background-color: #FFFFFF00;
+	color: white;
+}
+bottom{
+	color:aliceblue;
+	font-size: 30px;
+}
+.tijiao{
+	margin-right: 450px;
+	float:right; 
+	margin-top: 50px;
+}	
+.fanhui{
+   height:30px;
+   width:140px;
+   float: left;
+   line-height:30px;
+   border:1px solid #FFFFFF;
+   border-radius:25px;
+   color:#FFFFFF;
+   margin-left: 350px;
+   text-align:center;
+   margin-top: 50px;
+  
+}
+.bottom1{
+     border: 1px solid #FFFFFF;
+	 width: 140px;
+	 border-radius: 25px;
+}
+input{
+	border: 0;
+	padding: 6px;
+	border-bottom: 1px solid white;
+	background-color: #FFFFFF00;
+	color: white;
+	
+}
+.rightend{
+	border-top: 1px solid #FFFFFF;
+}

@@ -1,0 +1,262 @@
+body{
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+#sakura{
+    position: absolute;
+    z-index:10;
+}
+a{
+	text-decoration: none;
+	color: #04CDF7;
+}
+#maxbox{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-left: 300px;
+	width: 1500px;
+	height: 600px;
+	position: absolute;
+    z-index:200;
+}
+.left{
+	border: 1px solid;
+	float: left;
+	width: 298px;
+	height: 800px;
+	background-color: #00000070;
+	z-index: 300;
+	
+}
+.lefthead{
+	height: 110px;
+	width: 100%;
+}
+.leftend{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 15px;
+	
+}
+.leftend div{
+  font-size:30px;
+  padding-left:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.leftend div:hover{
+   background:#CCC;
+}
+.logo{
+	margin-left: 20px;
+	float: left;
+}
+.daohang{
+	font-size: 30px;
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	padding: 50px 10px 0 10px;
+	margin-right: 20px;
+	height:50px;
+	width: 130px;
+	float: right;
+	
+}
+
+.right{
+	border-right: 1px solid ;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	margin-right:100px;
+	height: 800px;
+	width: 1098px;
+	background-color: #00000090;
+	float: right;
+	
+}
+.righthead{
+	margin-top:60px;
+	height: 45px;
+	color: aliceblue;
+}
+.righthead span{
+	line-height:30px;
+    font-size: 40px;
+}
+.righthead .h{
+	float:left;
+	margin-left:100px;
+    height:20px;
+	width:170px;
+}
+.righthead .ad,.tc {
+	margin-left:20px;
+	float:left;
+	width:100px;
+	height:23px;
+	text-align:center;
+    border:1px solid #FFF;
+	border-radius:25px;
+}
+.tcq{
+   display:none;
+}
+
+.righthead td{
+	width: 100px;
+	height: 20px;
+	margin-left: 50px;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-align: center;
+	border:solid #FFFFFF;
+	border-radius: 25px;
+}
+
+.rightmid{
+	
+	width: 100%;
+	height: 550px;
+	background-color:aliceblue90;
+}
+.rightmid div{
+	text-align: center;
+}
+.midbox{
+	height: 40px;
+	width: 1056px;
+	color: #FFF;
+	font-size: 10px;
+	margin-left: 2px;
+	margin-top:20px;
+	line-height: 40px;
+	text-align: center;
+	border:solid #FFFFFF;
+}
+.midbox div{
+    	text-align: center;
+		line-height:40px;
+		width:200px;
+		float:left;
+}
+.midend{
+	border-top: solid 1px #FFFFFF;
+	background: aliceblue90;
+	height: 50px;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+}
+.fz{
+	height: 50px;
+	width: 100%;
+
+}
+.fanye{
+	margin-left: 150px;
+}
+#h1{
+	font-size:36px;
+	width:400px;
+	padding-left:400px;
+}
+.fanye div{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+	text-align: center;
+	margin-left: 60px;
+	line-height: 30px;
+	float: left;
+	
+}
+.midend .tcc{
+    margin-left:50px;
+	margin-top:25px;
+	float:left;
+	width:100px;
+	text-align:center;
+    border:1px solid #FFF;
+	border-radius:25px;
+}
+#midend{
+	margin: auto;
+	width: 150px;
+	color:#FFF;
+	text-align:center;
+	height: 20px;
+	border-radius:25px; 
+	border: 1px #FFFFFF solid;
+}
+
+.righthead{
+  height:60px;
+  border-bottom: 1px solid;
+}
+.rightmid{
+   margin-top:20px;
+	height: 400px;
+}
+.rightmid div{
+	 margin-top: 50px;
+	 color:#FFFFFF;
+	 margin-left: 20px;
+  
+}
+.rightmid input{
+	border: 0;
+	padding: 6px;
+	border-bottom: 1px solid white;
+	background-color: #FFFFFF00;
+	color: white;
+}
+bottom{
+	color:aliceblue;
+	font-size: 30px;
+}
+.tijiao{
+	 height:30px;
+   width:140px;
+   float: left;
+   line-height:30px;
+   color:#FFFFFF;
+   cursor: pointer;
+   margin-left: 50px;
+   text-align:center;
+   margin-top: 50px;
+}	
+.fanhui{
+   height:30px;
+   width:140px;
+   float: left;
+   font-size: 10px;
+   line-height:30px;
+   border:1px solid #FFFFFF;
+   border-radius:25px;
+   color:#FFFFFF;
+   margin-left: 400px;
+   text-align:center;
+   margin-top: 50px;
+  
+}
+.bottom1{
+     border: 1px solid #FFFFFF;
+	 width: 140px;
+	 border-radius: 25px;
+}
+input{
+	border: 0;
+	padding: 6px;
+	border-bottom: 1px solid white;
+	background-color: #FFFFFF00;
+	color: white;
+	
+}
+.rightend{
+	border-top: 1px solid #FFFFFF;
+}

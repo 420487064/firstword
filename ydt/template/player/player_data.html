@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>运动员信息修改</title>
+  <link rel="stylesheet" type="text/css" href="css/player_add.css">
+  <script src="../../js/jquery.min.1.12.4.js"></script>
+</head>
+
+<body>
+  <div>
+    <canvas id="sakura" width="1280" height="578"></canvas>
+    <div id="maxbox">
+      <div class="left">
+        <div class="lefthead">
+          <div class="logo">
+            <img src="../../img/logo.png" width="100px" height="100px">
+          </div>
+          <div class="daohang">比赛项目</div>
+        </div>
+        <div class="leftend">
+          <div class="aaa"><a href="#">比赛项目信息</a></div>
+          <details>
+            <summary class="aaa">比赛项目排行榜</summary>
+            <li><a href="index.php">女子800米</a></li>
+            <li><a href="#">女子跳远</a></li>
+            <li><a href="#">女子跳高</a></li>
+            <li><a href="#">男子跳远</a></li>
+            <li><a href="#">男子3000米</a></li>
+            <li><a href="#">男子实心球</a></li>
+            <li><a href="#">男子跳远</a></li>
+            <li><a href="#">男子100米</a></li>
+          </details>
+        </div>
+      </div>
+      <div class="right">
+        <div class="righthead">
+          <h1 id="h1">运动员信息修改</h1>
+        </div>
+
+        <div class="rightmid">
+
+          <div>编号 ：<input type="text" id="bh"></div>
+          <div>学号 ：<input type="text" id="xh"></div>
+          <div>姓名 ：<input type="text" id="xm"></div>
+          <div>性别 ：
+            <select id="xbie">
+              <option>男</option>
+              <option>女</option>
+            </select>
+          </div>
+          <div>系部 ：<input type="text" id="xbu"></div>
+          <div>密码 ：<input type="text" id="mm"></div>
+          <div>院号 ：
+            <select id="yh"></select>
+          </div>
+        </div>
+        <div class="rightend">
+          <a href="player.html">
+            <div class="fanhui"> 返回</div>
+          </a>
+          <a>
+            <div class="tijiao">提交</div>
+          </a>
+        </div>
+        <div class="cr"></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/player_data.js"></script>
+
+</html>

@@ -1,0 +1,277 @@
+body{
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+	background-image: url(../../../img/jb.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+#sakura{
+    position: absolute;
+    z-index:10;
+}
+a{
+	text-decoration: none;
+	color: aliceblue;
+}
+#maxbox{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-left: 300px;
+	width: 1500px;
+	height: 600px;
+	position: absolute;
+    z-index:200;
+}
+.left{
+	border: 1px solid;
+	float: left;
+	width: 298px;
+	height: 800px;
+	background-color: #00000070;
+	z-index: 300;
+	
+}
+.lefthead{
+	height: 110px;
+	width: 100%;
+}
+.leftend{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 15px;
+	
+}
+.leftend div{
+  font-size:30px;
+  padding-left:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.leftend div:hover{
+   background:#CCC;
+}
+.logo{
+	margin-left: 20px;
+	float: left;
+}
+.daohang{
+	font-size: 30px;
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	padding: 50px 10px 0 10px;
+	margin-right: 20px;
+	height:50px;
+	width: 130px;
+	float: right;
+	
+}
+
+.right{
+	border-right: 1px solid ;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	margin-right:100px;
+	height: 800px;
+	width: 1098px;
+	background-color: #00000090;
+	float: right;
+	
+}
+.righthead{
+	margin-top:60px;
+	height: 45px;
+	color: aliceblue;
+}
+.righthead span{
+	line-height:30px;
+    font-size: 40px;
+}
+.righthead .h{
+	float:left;
+	margin-left:100px;
+    height:20px;
+	width:170px;
+}
+.righthead .ad,.tc {
+	margin-left:20px;
+	float:left;
+	width:100px;
+	height:23px;
+	text-align:center;
+    border:1px solid #FFF;
+	border-radius:25px;
+}
+.tcq{
+   display:none;
+}
+
+
+
+.rightmid{
+	margin-left:10px;
+	width: 100%;
+	height: 550px;
+	background-color:aliceblue90;
+}
+
+.midbox{
+	height: 40px;
+	width: 1056px;
+	color: #FFF;
+	font-size: 10px;
+	margin-left: 2px;
+	margin-top:20px;
+	line-height: 40px;
+	text-align: center;
+	border:solid #FFFFFF;
+}
+.midbox div{
+    	text-align: center;
+		line-height:40px;
+		width:200px;
+		float:left;
+}
+.midend{
+	border-top: solid 1px #FFFFFF;
+	background: aliceblue90;
+	height: 50px;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.fz{
+	height: 50px;
+	width: 100%;
+
+}
+.fanye{
+	margin-left: 150px;
+}
+#h1{
+	font-size:36px;
+	width:100%;
+	text-align: center;
+}
+.fanye div{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+	text-align: center;
+	margin-left: 60px;
+	line-height: 30px;
+	float: left;
+	
+}
+.midend .tcc{
+    margin-left:50px;
+	margin-top:25px;
+	float:left;
+	width:100px;
+	text-align:center;
+    border:1px solid #FFF;
+	border-radius:25px;
+}
+#midend{
+	margin: auto;
+	width: 150px;
+	color:#FFF;
+	text-align:center;
+	height: 20px;
+	border-radius:25px; 
+	border: 1px #FFFFFF solid;
+}
+select{
+	height:20px;
+	width: 150px;
+	background: #AB8F8F;
+}
+.righthead{
+  height:60px;
+  border-bottom: 1px solid;
+}
+.rightmid{
+  
+	height: 400px;
+}
+.rightmid div:nth-child(1){
+     text-align: center;
+	 color:#FFFFFF;
+	 padding-top: 120px;
+     font-size: 20px;
+}
+.rightmid div:nth-child(2){
+	text-align: center;
+	color:#FFFFFF;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.rightmid input{
+	font-size: 20px;
+	width: 200px;
+	
+}
+.rightmid input{
+	border: 0;
+	padding: 6px;
+	background-color: #ffffff50;
+	color: white;
+	outline:none;
+}
+.rightmid input:focus{
+	border: #FFFFFF 1px solid;
+}
+.rightmid a{
+	color: aliceblue;
+}
+bottom{
+	color:aliceblue;
+	font-size: 30px;
+}
+.tijiao{
+	margin-left: 30px;
+	float:left; 
+	margin-top: 50px;
+	height:30px;
+   width:140px;
+   line-height:30px;
+   border:1px solid #FFFFFF;
+   border-radius:25px;
+   color:aliceblue;
+   font-size: 13px;
+   cursor: pointer;
+   text-align:center;
+   margin-top: 50px;
+}	
+.fanhui{
+   height:30px;
+   width:140px;
+   float: left;
+   line-height:30px;
+   border:1px solid #FFFFFF;
+   border-radius:25px;
+   color:aliceblue;
+   font-size: 13px;
+   margin-left: 400px;
+   text-align:center;
+   margin-top: 50px;
+  
+}
+.bottom1{
+     border: 1px solid #FFFFFF;
+	 width: 140px;
+	 border-radius: 25px;
+}
+
+.rightend{
+	border-top: 1px solid #FFFFFF;
+}
+.cr{
+	text-align: center;
+	padding-top: 130px;
+	color: #ff0000;
+	font-size: 25px;
+	letter-spacing: 10px;
+}

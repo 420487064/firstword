@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>运动员信息管理</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/player.css">
+  <script src="../../js/jquery.min.1.12.4.js"></script>
+</head>
+
+<body>
+  <div>
+    <canvas id="sakura" width="1280" height="578"></canvas>
+    <div id="maxbox">
+      <div class="left">
+        <div class="lefthead">
+          <div class="logo">
+            <img src="../../img/logo.png" width="100px" height="100px">
+          </div>
+          <div class="daohang">比赛项目</div>
+        </div>
+        <div class="leftend">
+          <div class="bbb"><a href="../next/next.html">比赛项目信息<a></div>
+						<details id="details" open>
+				<summary class="aaa">比赛项目排行榜</summary>
+						
+						</details>
+        </div>
+      </div>
+      <div class="right">
+        <div class="righthead">
+          <a href="player_add.html">
+            <div class="tc">运动员录入</div>
+          </a>
+          <a href="../../index.html">
+            <div class="tc">首页</div>
+          </a>
+          <div class="h"><span>运动员</span></div>
+        </div>
+        <div class="rightmid">
+          <div class="rightmid_head">
+            <div>编号</div>
+            <div>学号</div>
+            <div>姓名</div>
+            <div>性别</div>
+            <div>系部</div>
+            <div>密码</div>
+            <div>学院编号</div>
+          </div>
+
+
+
+         <div id="jsxx"></div>
+
+        
+
+
+        <div class="fz">
+          <p>当前是第<i id="n">1</i>页,共<i id="m">m</i>页</p>
+          <div class="fanye">
+            <a>
+              <div index-data="1">首页</div>
+            </a>
+            <a>
+              <div index-data="2">上一页</div>
+            </a>
+            <a>
+              <div index-data="3">下一页</div>
+            </a>
+            <a>
+              <div index-data="4">尾页</div>
+            </a>
+          </div>
+        </div>
+
+
+
+        <div class="midend">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="js/player.js"></script>
+</html>
